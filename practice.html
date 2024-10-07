@@ -5,12 +5,36 @@
         <title>Practice</title>
         <style>
             h1 {background-color: #8b34a9;}
+            a:visited{color: #269454} 
+            a:hover{background-color: #3dcdec;}
+/* psuedo seletor, a: references the action on a site, the word after is the action that the color will apploy to */
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: #9eacb1;
+            }
+            .bgimage{ /* Class creation - Can be attached to other elements so the contents of the class are displayed with that element */
+                background-image: url('final_project_images/vergil_sdt.gif');
+                background-size: 5%;
+            }
+            .box{
+                background-color: #9c8c12;
+                border: 5px dashed #000000;
+                padding: 100px;
+                margin: 50px;
+            }
         </style>
     </head>
 
     <body>
+        <h1>Heading</h1>
+        <h2 class="bgimage"> Heading 2</h2>
         <p><a href="http://www.microsoft.com">Microsoft</a><br>
                 <a href="http://www.apple.com">Apple</a></p>
+                <p class="box">Once again, the South Eastern Conference (SEC) and Atlantic Coast Conference (ACC) have come together to host a virtual career fair for their member schools! Syracuse University is thrilled to invite all of our students and alumni to register and attend this years' FREE SEC & ACC Virtual Career Fair!
+                    During this event, students can connect with hundreds of companies seeking to fill full-time, internship, and cooperative education positions nationwide for ALL majors and degrees.
+                    When navigating to the fair on Handshake, please know this is a placeholder fair for your easy access to the details and external registration link. You will need to register a final time when you are redirected to CareerEco after clicking register in Handshake.
+                    Should you have any questions, feel free to reach out.
+                    </p>
     </body>
 
 </html>
