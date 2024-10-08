@@ -1,4 +1,11 @@
 body{background-color: #9eacb1;}
 text{color: #1c124b;}
 link{color: #3dcdec;}
-head{color: #8b34a9;}
+    a:visited{color: #080697;}
+    a:hover{background-color: #b9cf26}
+h1,h2,h3{color: #8b34a9;}
+nav{background-color: #ffffff;}
+nav a:hover{background-color: #b716c1;}
+nav a{color: #342663;}
+nav{padding: 10px;}
+nav{margin-bottom: 30px;}
