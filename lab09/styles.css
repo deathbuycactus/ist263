@@ -12,6 +12,6 @@ nav{margin-bottom: 30px;}
     nav a{color: #342663;}
 tr.evenrow{background-color:purple}
 table, th, td {border: 2px solid purple;}
-.skillstable table{margin: 0 auto;} /* Doesn't work once flexbox surrounds skillstable */
-.skillsimage{text-align: center;} /* Doesn't work once flex box surrounds skillsimage */
+.skillstable table{margin: 0 auto;}
+.skillsimage{text-align: center; flex: 1;}
 .clear{clear: both;}
