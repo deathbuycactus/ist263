@@ -18,14 +18,10 @@ table, th, td {border: 2px solid purple;}
 .img1{max-width: 100%;}
 
 @media only screen and (max-width: 768px) {
-    nav{
+    nav a{
         width: 100%;
-        display: flex;
-        gap: 1rem;
-    }
-    nav link{
-        size: 100%;
         display: block;
+        padding: .5rem;
     }
-    span{display: none;}
+    nav span{display: none;}
 }
