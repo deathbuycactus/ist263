@@ -14,22 +14,22 @@
             document.getElementById("messages").innerHTML = 'Wrong Shell - Try Again';
         }
         function ShuffleShells(){
-            document.getElementById("first").style.order = Math.floor((Math.random() *3) + 2);
+            document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);
         }
     </script>
 <style type="text/css"></style><style type="text/css" id="operaUserStyle">
     .container{display: flex;}
-    .first{order: 1;}
-    .second{order: 2;}
-    .third{order: 3;}
+    #first{order: 1;}
+    #second{order: 2;}
+    #third{order: 3;}
 </style></head>
 <body onload="ShuffleShells();">
     <h1>Choose a Walnut</h1>
 
     <div id="messages">
-        <img src="./Lab 11_files/walnut.png" alt="first walnut" class="first" onclick="WinnerMessage();">
-        <img src="./Lab 11_files/walnut.png" alt="second walnut" class="second" onclick="TryAgain();">
-        <img src="./Lab 11_files/walnut.png" alt="third walnut" class="third" onclick="TryAgain();">
+        <img src="./Lab 11_files/walnut.png" alt="first walnut" id="first" class="first" onclick="WinnerMessage();">
+        <img src="./Lab 11_files/walnut.png" alt="second walnut" id="second" class="second" onclick="TryAgain();">
+        <img src="./Lab 11_files/walnut.png" alt="third walnut" id="third" class="third" onclick="TryAgain();">
     </div>
 
 </body></html>
