@@ -7,7 +7,6 @@
         background-image: url('../final_project_images/fmab_banner');
         background-size: 5%;
     }
-    img{max-width: 100%}
 */
 
 /* Style ideas for dmc_5.html             
@@ -19,7 +18,7 @@
     }
 */
 
-/* Style for index.html 
+/* Style to implement
 Questions to ask: 
 How would I go about spacing this better?
 */
@@ -27,8 +26,14 @@ h1,h2,h3,p{
     text-align: center;
     margin: 1em
 }
-.resize1{max-width: 40%}
+.resize_index{max-width: 40%}
+.spacing_fmab{padding: .5em}
 body{background-color: #d2c7c7a9;}
+
+.banner{
+    width: 100%;
+    border: 1em;
+}
 
 /* Media Query */
 @media only screen and (max-width: 768px) {
