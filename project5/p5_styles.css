@@ -19,15 +19,24 @@
     }
 */
 
-/* Style ideas for index
-<style>
-    h1,h2,h3,p,img: centered
-    img{max-width: 100%}
-</style>
+/* Style for index.html 
+Questions to ask: How would I go about spacing this better?
 */
-
-/* Media Query 
-@media only screen and (max-width: 768px) {
-
+h1,h2,h3,p{
+    text-align: center;
+    margin: 1em
+    border: 1em
 }
-*/
+img{max-width: 100%}
+body{background-color: #d2c7c7a9;}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+    nav a{
+        width: 100%;
+        display: block;
+        padding: .5rem;
+        text-align: center;
+    }
+    nav span{display: none;}
+}
