@@ -1,38 +1,26 @@
 /* External Style Sheet (Affects all pages linked)*/
 
-/* Style ideas for fmab.html  
-    h1,h2,h3,p: centered
-    img: centered -> May require flex boxes since I want two images side by side and centered
-    .bg_fmab{
-        background-image: url('../final_project_images/fmab_banner');
-        background-size: 5%;
-    }
-*/
-
-/* Style ideas for dmc_5.html             
-    h1,h2,h3,p,img: centered
-    img{max-width: 100%}
-    .bg_dmc{
-        background-image: url('../final_project_images/fmab_banner');
-        background-size: 5%;
-    }
-*/
-
 /* Style to implement
 Questions to ask: 
-How would I go about spacing this better?
+How would I go about spacing index better?
 */
 h1,h2,h3,p{
     text-align: center;
     margin: 1em
 }
 .resize_index{max-width: 40%}
-.spacing_fmab{padding: .5em}
+.spacing_fmab{padding: .5em; max-width: 20%;}
+.resize_fmab{max-width: 20%;}
 body{background-color: #d2c7c7a9;}
 
-.banner{
-    width: 100%;
+.fmab_banner{
+    max-width: 100%;
     border: 1em;
+}
+
+.bg_dmc{
+    background-image: url('../final_project_images/dmc_banner.jpg');
+    background-size: 100%;
 }
 
 /* Media Query */
