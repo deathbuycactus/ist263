@@ -14,15 +14,18 @@ h1,h2,h3,p{
 body{background-color: #d2c7c7a9;}
 
 .fmab_banner{
-    max-width: 100%;
+    width: 100%;
     border: 1em;
 }
 
-/* .dmc_banner{
+.dmc_banner{
     max-width: 100%;
     max-height: auto;
-} */
+}
 
+.dmc_gifs{
+    max-width: 100%;
+}
 /* Media Query */
 @media only screen and (max-width: 768px) {
     nav a{
