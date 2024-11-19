@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .contact{
+                display: flex; 
+                padding: 1em;
+                margin: 1em;
+                background-color: #3dcdec; 
+                border-radius: 1em;
+            }
+            .contact div{
+                flex: 1;    
+                padding: 1em;
+            }
+            .form{
+                display: flex;
+                padding: 0px 1em 1em 1em; 
+                margin: 1em; 
+                background-color: #1c409b6b; 
+                border-radius: 1em;
+                flex-wrap: wrap;
+            }
+            .form div{
+                flex: 1;
+                padding: 0px 1em 1em 1em;
+            }
+            .form .map {
+                flex: 1;
+                padding: 35px 17px 1em 1em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <nav>
+            <a href="http://deathbuycactus.github.io/ist263/lab10">Bio Page</a> <span>|</span>
+            <a href="http://deathbuycactus.github.io/ist263/lab10/skills.html">Skills Page</a> <span>|</span>
+            <a href="http://deathbuycactus.github.io/ist263/lab10/contact.html">Contact Page</a>
+        </nav>
+        <header>
+            <h1>Contact</h1>
+            <a href="#main" class="skip">Skip to main content</a>
+        </header>
+
+        <main>
+            <div class="contact">
+                <div>        
+                    <p>
+                    Marcus Johnson <br>     
+                    Theory Syracuse <br>
+                    919 E Genesee Street <br>
+                    Syracuse, NY 13210 <br>
+                    </p>
+                </div>
+                
+                <div>
+                    <p>
+                        <a href="mailto:mjohns41@syr.edu">mjohns41@syr.edu</a><br>
+                        <a href="https://www.linkedin.com/in/marcus-stokes-johnson/">My LinkedIn Profile</a>
+                        <img src="../images/linkedin.png" alt="LinkedIn Logo">
+                    </p>
+                </div>
+            </div>
+        </main>
+        <section>
+            <div class="form"> <!-- Tab index won't go over radio buttons correctly -->
+                <div>
+                    <form action="https://formspree.io/f/xrbzvdwr" method="POST">
+                    <h2>Inquirer</h2>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    
+                    <h2>Inquiry Type</h2>
+                    <input type="radio" id="personal" name="inquiry" value="Personal">
+                    <label for="personal">Personal</label><br>
+                    <input type="radio" id="professional" name="inquiry" value="Professional">
+                    <label for="professional">Professional</label><br>
+                    <input type="radio" id="other" name="inquiry" value="Other">
+                    <label for="other">Other</label>
+        
+                    <h2>Description of Inquiry</h2>
+                    <label for="description">Description:</label><br>
+                    <textarea id="description" name="description" rows="5"></textarea><br><br>
+                    <input type="submit" value="Submit Inquiry">
+                    </form>
+                </div>
+
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5831.466022286883!2d-76.13691279999999!3d43.0470487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a699e502a7%3A0xb691d71e17210137!2s919%20E%20Genesee%20St%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1726012820493!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+            <div class="clear"></div>
+        </section>
+
+    </body>
+
+</html>
