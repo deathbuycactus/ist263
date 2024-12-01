@@ -1,10 +1,7 @@
 /* External Style Sheet (Affects all pages linked)*/
 
 /* Style to implement */
-h1,h2,h3,p{
-    text-align: center;
-    margin: 1em
-}
+
 .resize_index{max-width: 40%}
 .spacing_fmab{padding: .5em; max-width: 30%;}
 .resize_fmab{max-width: 20%;}
