@@ -1,0 +1,112 @@
+/* External Style Sheet (Affects all pages linked)*/
+
+/* Style to implement */
+
+.resize_index{max-width: 40%}
+.spacing_fmab{padding: .5em; max-width: 30%;}
+.resize_fmab{max-width: 20%;}
+body{background-color: #d2c7c7a9;}
+
+.fmab_banner{
+    width: 100%;
+    border: 1em;
+}
+
+.dmc_banner{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.dmc_gifs{
+    max-width: 100%;
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+    nav a{
+        width: 100%;
+        display: block;
+        padding: .5rem;
+        text-align: center;
+    }
+    nav span{display: none;}
+}
+
+/* Roboto: CSS Classes */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular, p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 1em;
+  }
+  
+  .roboto-medium, a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold, h1, h2, h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin: 1em;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
