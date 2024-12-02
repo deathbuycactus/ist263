@@ -5,7 +5,11 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <script 
                 src="p5_scripts.js">
-                /* Add sendHome function */
+                function sendHome() {
+                    /* Only have sendHome in fmab.html and dmc_5.html */
+                    setTimeout(() => {
+                        window.location.href = "https://www.deathbuycactus.github.io/ist263/project7/index.html"; }, 2000); /* Change to whatever the link to the home page is */
+                    } /* fix sendHome function */
             </script>
             <link rel="stylesheet" href="p5_styles.css">
             <link rel="shortcut icon" type="image/x-icon" href="../final_project_images/3lines.ico">
