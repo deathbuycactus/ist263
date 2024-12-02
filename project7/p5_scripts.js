@@ -10,4 +10,4 @@ function sendHome() {
     console.log("Redirecting to home...");
     setTimeout(() => {
         window.location.href = "https://www.deathbuycactus.github.io/ist263/project7/index.html"; }, 2000); /* Change to whatever the link to the home page is */
-    } /* fix sendHome function */
+    }
