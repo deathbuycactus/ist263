@@ -5,3 +5,8 @@ function change() {
 function revert() {
     document.getElementById("gridding").setAttribute("src", "../final_project_images/zuko_iroh.png")
 }
+function sendHome() {
+    /* Only have sendHome in fmab.html and dmc_5.html */
+    setTimeout(() => {
+        window.location.href = "https://www.deathbuycactus.github.io/ist263/project7/index.html"; }, 2000); /* Change to whatever the link to the home page is */
+    } /* fix sendHome function */
