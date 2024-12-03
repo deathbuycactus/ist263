@@ -13,9 +13,8 @@ body{background-color: #d2c7c7a9;}
 }
 
 .dmc_banner{
-    max-width: 100%;
+    width: 100%;
     border: 1em;
-    
 }
 
 .dmc_gifs{
